@@ -2,7 +2,7 @@ let randomNumber = Math.floor(Math.random() * 100) + 1
 let tries = 0
 
 function checkGuess() {
-  let userGuess = Number(document.getElementById("guessInput").value)
+  let userGuess = Number(document.getElementById("guessInput").value) // Convert input to number
   let message = document.getElementById("message")
   let attempts = document.getElementById("attempts")
 

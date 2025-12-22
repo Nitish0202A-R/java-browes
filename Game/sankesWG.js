@@ -22,10 +22,10 @@ rl.question("Choose: snake, water or gun : ", function (user) {
         (user === "water" && computer === "gun") ||
         (user === "gun" && computer === "snake")
     ) {
-        console.log("Result: You Win ")
+        console.log("Result You Win ")
     }
     else {
-        console.log("Result: Computer Wins ")
+        console.log("Result Computer Wins ")
     }
 
     rl.close()

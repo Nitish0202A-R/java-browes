@@ -13,6 +13,6 @@ while (guess !== randomNumber) {
     alert("Too High!")
   }
   else {
-    alert(" Correct! You guessed in " + attempts + " attempts.")
+    alert(" Correct! You guessed in " + attempts + " attempts")
   }
 }

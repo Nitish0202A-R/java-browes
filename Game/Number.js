@@ -3,16 +3,16 @@ let guess;
 let attempts = 0;
 
 while (guess !== randomNumber) {
-  guess = Number(prompt("Guess a number between 1 to 10"));
+  guess = Number(prompt("Guess a number between 1 to 10"))
   attempts++;
 
   if (guess < randomNumber) {
-    alert("Too Low!");
+    alert("Too Low!")
   }
   else if (guess > randomNumber) {
-    alert("Too High!");
+    alert("Too High!")
   }
   else {
-    alert("🎉 Correct! You guessed in " + attempts + " attempts.");
+    alert(" Correct! You guessed in " + attempts + " attempts.")
   }
 }

@@ -1,5 +1,5 @@
 // SELECT ELEMENT
-let element = document.getElementById("box");
+let element = document.getElementById("box")
 
 /* =========================
    PARENT TRAVERSAL
@@ -10,7 +10,7 @@ console.log(element.parentNode)     // parent node
 /* =========================
    CHILD TRAVERSAL
 ========================= */
-console.log(element.children);              // all child elements
+console.log(element.children)             // all child elements
 console.log(element.firstElementChild)   // first child
 console.log(element.lastElementChild)   // last child
 

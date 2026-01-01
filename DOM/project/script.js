@@ -2,9 +2,9 @@ let randomNumber = Math.floor(Math.random() * 100) + 1;
 let tries = 0;
 
 function checkGuess() {
-  let userGuess = Number(document.getElementById("guessInput").value);
-  let message = document.getElementById("message");
-  let attempts = document.getElementById("attempts");
+  let userGuess = Number(document.getElementById("guessInput").value)
+  let message = document.getElementById("message")
+  let attempts = document.getElementById("attempts")
 
   tries++;
 

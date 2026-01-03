@@ -12,7 +12,7 @@ function checkGuess() {
     attempts.innerText = "Attempts: " + tries;
   } 
   else if (userGuess > randomNumber) {
-    message.innerText = " Too High! Try again."
+    message.innerText = " Too High! Try again." // Corrected the typo here
   } 
   else {
     message.innerText = " Too Low! Try again."

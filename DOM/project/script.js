@@ -5,7 +5,7 @@ function checkGuess() {
   let userGuess = Number(document.getElementById("guessInput").value) 
   let message = document.getElementById("message")
   let attempts = document.getElementById("attempts")
-  tries++; 
+  tries++
 
   if (userGuess === randomNumber) {
     message.innerText = " Correct! You guessed the number."
